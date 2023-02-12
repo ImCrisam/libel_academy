@@ -5,12 +5,15 @@ import { VideoView } from "./components/VideoView/VideoView";
 function App() {
   return (
     <div className="App ">
-      <div className="bg-danger">
-        <span>New Web ->   <a href="http://imcrisam.site/libel_academy_temporal/">
-          <h1>AQUI</h1> 
-          </a>
-          </span>
-          </div>
+      <div className="bg-warning d-flex justify-content-center align-items-center p-3">
+        <a
+          href="http://imcrisam.site/libel_academy_temporal/"
+          target="_blank"
+          className="text-primary text-bold"
+        >
+          New Web Click Me
+        </a>
+      </div>
       <div className="bg-primary bg-opacity-10 pt-5">
         <VideoView></VideoView>
       </div>
